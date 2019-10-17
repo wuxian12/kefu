@@ -1,0 +1,35 @@
+<?php /*a:1:{s:51:"F:\www\kefu\application\index\view\index\index.html";i:1571230327;}*/ ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>客服</title>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="客服">
+    <meta name="description" content="客服">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="/static/customer/css/laykefu.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <pre style="padding-top: 50px;padding-left: 50px;color:#000">
+    网站内容
+    </pre>   
+<!-- 右侧悬浮 -->       
+<div class="laykefu-min " id="show-laykefu">咨询客服</div>
+<!-- 右侧悬浮 -->
+
+<script src="/static/customer/js/jquery.min.js"></script>
+<script src="/static/customer/js/laykefu.js"></script>
+<script type="text/javascript">
+  laykefu.init({
+    group: 1,//客服分组
+    socket: '127.0.0.1:8282',//聊天服务器地址
+    face_path:'/static/customer/images/face',//表情包路径
+    upload_url:'/index.php/index/upload/uploadImg',//图片上传路径
+  });
+
+</script>
+</body>
+</html>
